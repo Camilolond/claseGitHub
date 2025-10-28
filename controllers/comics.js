@@ -1,7 +1,7 @@
 const comicsController = {}
 
 comicsController.getComics = (req, res) => {
-    req.json({message: "Hola"})
+    res.json({message: "Hola"})
 }
 
 module.exports = comicsController
